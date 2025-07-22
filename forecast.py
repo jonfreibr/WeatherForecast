@@ -173,7 +173,7 @@ class MainWindow(QMainWindow):
 
         self.setStyleSheet(f'background-color: {brmc_medium_blue}')
 
-        self.setWindowTitle(f'Weather Widget {progver}')
+        self.setWindowTitle(f'Weather Forecast Widget {progver}')
         container = QWidget()
         layout = QGridLayout()
 
