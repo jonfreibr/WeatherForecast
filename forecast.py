@@ -216,7 +216,7 @@ class DataWindow(QWidget):
         self.setStyleSheet(f'background-color: {brmc_medium_blue}; color: black')
         layout = QHBoxLayout()
 
-        divLine = "\n|-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-|\n"
+        divLine = "\n|-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-|\n\n"
 
         self.text_edit = QTextEdit()
         self.text_edit.setStyleSheet(f'background-color: {brmc_gold}; color: black')
