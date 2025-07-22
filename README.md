@@ -1,2 +1,2 @@
 # WeatherAlerts
- Monitor Weather Alerts for predefined locations
+ Monitor Forecast for predefined locations

@@ -13,14 +13,9 @@ import atexit
 import json
 import os
 import psutil
-import pytz
 import requests
 import subprocess
 import sys
-import time
-
-if sys.platform == "win32":
-    import winsound
 
 from datetime import datetime
 
@@ -55,7 +50,6 @@ from PySide6.QtWidgets import (
 
 progver = '0.1'
 
-tz_NY = pytz.timezone('America/New_York')
 brmc_dark_blue = '#00446a'
 brmc_medium_blue = '#73afb6'
 brmc_gold = '#ffcf01'
