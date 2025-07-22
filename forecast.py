@@ -225,6 +225,7 @@ class DataWindow(QWidget):
             self.text_edit.insertPlainText(str(period['name']+':\n'))
             self.text_edit.insertPlainText(str('Temperature: '+str(period['temperature'])+' '+period['temperatureUnit']+'\n'))
             self.text_edit.insertPlainText(str('Wind: '+str(period['windSpeed'])+' '+period['windDirection']+'\n'))
+            self.text_edit.insertPlainText(str('Chance of Precipitation: '+str(period['probabilityOfPrecipitation']['value'])+'%\n'))
             self.text_edit.insertPlainText(str('Detailed Forecast: '+period['detailedForecast']+'\n'))
             self.text_edit.insertPlainText(divLine)
         self.text_edit.insertPlainText('End of Forecast')
