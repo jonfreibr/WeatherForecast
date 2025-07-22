@@ -1,0 +1,11 @@
+<Options>
+    <Option Name="InstallAllUsers" Value="no" />
+    <Option Name="Include_doc" Value="no" />
+    <Option Name="Include_launcher" Value="yes" />
+    <Option Name="InstallLauncherAllUsers" Value="no" />
+    <Option Name="Shortcuts" Value="no" />
+    <Option Name="PrependPath" Value="yes" />
+    <Option Name="Include_test" Value="no" />
+    <Option Name="SimpleInstall" Value="yes" />
+    <Option Name="SimpleInstallDescription">BRMC Base Install</Option>
+</Options>
