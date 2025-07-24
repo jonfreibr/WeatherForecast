@@ -174,6 +174,7 @@ class MainWindow(QMainWindow):
         self.setStyleSheet(f'background-color: {brmc_medium_blue}')
 
         self.setWindowTitle(f'Weather Forecast Widget {progver}')
+        self.setWindowIcon(QIcon('weather-cloudy.png'))
         container = QWidget()
         layout = QGridLayout()
 
@@ -209,6 +210,7 @@ class DataWindow(QWidget):
         self.namePos = name+'pos'
         self.nameSize = name+'size'
         self.setWindowTitle(f'Weather forecast for {self.name}')
+        self.setWindowIcon(QIcon('report--pencil.png'))
         self.setContentsMargins(10, 10, 10, 10)
         self.settings = QSettings("Blue Ridge Medical Center", "Weather Forecast Widget")
         self.resize(self.settings.value(self.nameSize, QSize(655, 600)))
